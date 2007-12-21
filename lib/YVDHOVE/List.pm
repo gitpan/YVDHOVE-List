@@ -17,7 +17,7 @@ our %EXPORT_TAGS = ( 'all' => [ qw( ArrayToDelimitedList
 our @EXPORT_OK   = ( @{ $EXPORT_TAGS{'all'} });
 our @EXPORT      = ();
 
-our $VERSION     = '1.01';
+our $VERSION     = '1.02';
 
 # ---------------------------------------------------------------------------------
 
@@ -206,8 +206,7 @@ returns a HASHREF to a HASH: (A => B, C => D)
 
 =head1 SEE ALSO
 
-YVDHOVE::List
-YVDHOVE::String
+See F<http://search.cpan.org/search?query=YVDHOVE&mode=all>
 
 =head1 AUTHORS
 

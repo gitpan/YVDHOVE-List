@@ -1,5 +1,8 @@
 Revision history for YVDHOVE::List
 **********************************
 
+YVDHOVE::List v1.02
+	* changes to documentation
+
 YVDHOVE::List v1.01
 	* original version; created by h2xs 1.23 with options '-AXc -n YVDHOVE::List'
