@@ -17,7 +17,7 @@ our %EXPORT_TAGS = ( 'all' => [ qw( ArrayToDelimitedList
 our @EXPORT_OK   = ( @{ $EXPORT_TAGS{'all'} });
 our @EXPORT      = ();
 
-our $VERSION     = '1.02';
+our $VERSION     = '1.03';
 
 # ---------------------------------------------------------------------------------
 
@@ -131,7 +131,7 @@ sub DelimitedKeyValuePairToHash($$$) {
 __END__
 =head1 NAME
 
-YVDHOVE::List - Perl module that provides List functions used by the YVDHOVE framework
+YVDHOVE::List - This Perl module provides "List" functions for the YVDHOVE framework
 
 =head1 SYNOPSIS
 
@@ -147,7 +147,7 @@ YVDHOVE::List - Perl module that provides List functions used by the YVDHOVE fra
 
 =head1 DESCRIPTION
 
-Library with functions to manipulate separated lists and return them as array or hash.
+This Perl module provides "List" functions for the YVDHOVE framework
 
 =head1 EXPORT
 
